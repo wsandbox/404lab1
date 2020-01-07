@@ -1,0 +1,8 @@
+q1) https://github.com/wsandbox
+q2) 2.22.0
+q3) 2.22.0
+q4) both my virtual environment and non-virtual environment are running python 3.6.7 and have requests version 2.22.0
+q5) received status code 301 Moved Permanently. Can receive a 200 OK code by using the URL http://www.google.com (see value in Location header)
+q6) Curling https://www.google.com without -i or -iL does not return a status code but returns the html of the site. Status code HTTP/2 418 is returned when curling https://www.google.com/teapot with -i or -iL. Using curl -i or -iL on http://www.google.com returns HTTP/1.1 418 I'm a Teapot.
+q7) When using -X POST, there is a MiniFieldStorage header with tuple value ('X','Y'). These headers fall under Form Contents, whereas without POST, there are no form contents. This is useful for sending data to a website which can be interpreted/handled. Since curl defaults to a GET request, using -X to specify the request type is useful to send information to a webform. 
+q8)https://raw.githubusercontent.com/wsandbox/404lab1/master/q1.py 
